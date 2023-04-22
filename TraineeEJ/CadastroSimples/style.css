@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,500;1,900&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.cabecalho {
+    margin-bottom: 5vh;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    color: #844CB1;
+}
+
+.cabecalho img {
+    border-radius: 25px;
+}
+
+
+.formulario {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(58, 57, 58);
+    background-color: rgb(240, 248, 255);
+    border: 1px solid #844CB1;
+    padding: 7vh;
+    border-radius: 10px;
+}
+
+.grupo {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    border: none;
+}
+.campo{
+    display: flex;
+    padding: 2vh;
+    justify-content: start;
+    width: 100%;
+    flex-direction: column;
+}
+
+.titulo-campo {
+    padding-bottom: 1vh;
+    font-weight: bold;
+}
+
+.campo input[type="text"], .campo input[type="email"] {
+    padding: 1%;
+    border: none;
+    border-bottom: 1px solid #844CB1;
+    border-radius: 2px;
+    background: transparent;
+    
+}
+
+.campo input[type="radio"] {
+    border: none;
+    cursor: pointer;
+}
+
+
+.campo select {
+    width: 12vh;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #844CB1;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.campo textarea {
+    border: 1px solid #844CB1;
+    border-radius: 5px;
+}
+
+.campo input:focus, .campo select, .campo textarea {
+    outline: 0;
+}
+
+.campo input[type="checkbox"]{
+    cursor: pointer;
+    border: 1px solid #844CB1;
+}
+
+.botao {
+    margin-top: 2vh;
+    background: #844CB1;
+    color: ghostwhite;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+
+}
