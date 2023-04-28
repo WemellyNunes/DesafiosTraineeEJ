@@ -9,15 +9,81 @@
 </head>
 
 <body>
-  <a href="./TraineeEJ/CadastroSimples/index.html">Acessar tela de Cadastro de Devs</a>
-    <a href="./TraineeEJ/TODOlist/index.html">Acessar tela ToDo List</a>
-    <hr>
-    
+    <div class="container">
+        <div class="cabecalho">
+            <img src="https://cdn.1link.pro/production/user-622/page-824/logo.webp?time=1679090368" width="100px" alt="">
+            <h1>Exception Jr.</h1>
+            <h2>Trainee - Desafios Frontend</h2>
+        </div>
+        <div class="desafios">
+            <a href="./TraineeEJ/CadastroSimples/index.html">Cadastro de Devs HTML/CSS</a>
+            <a href="./TraineeEJ/TODOlist/index.html">ToDo List Avançado</a>
+        </div>
+    </div>
+
+
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,500;1,900&family=Sarala:wght@400;700&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Roboto";
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(68.15deg, #1ec28b 16.62%, #1ec28b 85.61%);
+        }
+
+        img {
+            border-radius: 50px;
+
+        }
+        .conatiner {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .cabecalho {
+            text-align: center;
+            margin-bottom: 5vh;
+            color: #fff;
+        }
+
+        .cabecalho > h1 {
+            color: #26189c;
+            margin-bottom: 5vh;
+        }
+        .desafios {
+            margin-top: 1%;
+            text-align: center;
+        }
+
+        .desafios>a:hover {
+            color: #2e1ec2;
+            border: 1px solid #2e1ec2;
+            transition: .6s;
+        }
+
         a {
-            padding: 10px;
-            font-family: Sans Serif;
+            font-weight: 600;
+            padding: 15px;
             font-size: 16px;
+            text-decoration: none;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            color: #fff;
         }
     </style>
 </body>
