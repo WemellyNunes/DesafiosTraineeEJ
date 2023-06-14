@@ -4,5 +4,5 @@
 - Tela de cadastro simples HTML/CSS puro
 - TODO List HTML/CSS/JavaScript
 
-## [Acessar Desafios](https://wemy-nunes.github.io/DesafiosTraineeEJ/)
+## [Acessar Desafios](https://wemellynunes.github.io/DesafiosTraineeEJ/)
 
